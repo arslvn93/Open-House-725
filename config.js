@@ -1,80 +1,71 @@
-const config = {
+{
   "property": {
-    "streetAddress": "142 Valley Glen Heights NW",
-    "city": "Calgary",
-    "cityStateZip": "Calgary, AB T3B 5S8",
-    "heroSubtitle": "Amazing back yard, expansive 44x146-foot lot (7,588 sq ft) backing onto a tranquil nature reserve and the renowned Bow River Pathway. Register to receive the complete property Home &amp; Neighbourhood Info Package, virtual tour, floor plans, and comparables.",
-    "backgroundImageUrl": "https://cdn.realtor.ca/listing/TS638829328681570000/reb9/highres/1/A2219911_1.jpg"
+    "streetAddress": "5 MAPLE AVE N",
+    "city": "Brant (Burford)",
+    "cityStateZip": "Brant, ON N0E1A0",
+    "heroSubtitle": "Move in ready! Discover this charming 3-bedroom, 2-bath freehold home in the cute town of Burford. Listing Price: $549,900. Open House June 21 & 22. Explore: property listing, photos, floor plan, virtual tour, and area sales!",
+    "backgroundImageUrl": "https://api.typeform.com/responses/files/c6bac8692601f93869bbad1cd77ba0a8f4b70031812a530209f19199b92c7a1d/GetMedia.jpg",
+    "listingItems": [
+      "Property Listing URL",
+      "Photos",
+      "Virtual Tour",
+      "Recent Neighborhood Sales",
+      "On-Market Comparables",
+      "Floor Plan"
+    ],
+    "homeType": "Freehold home",
+    "beds": "3",
+    "baths": "2",
+    "listingPrice": "$549,900",
+    "secondaryPhotos": [
+      "https://api.typeform.com/responses/files/42140fb49467a2ed32141d8d32d499fa75b680d4273f1d500873abc987fe71f2/GetMedia_1.jpg"
+    ],
+    "keySellingFeature": "Move in ready, cute town of burford"
   },
   "realtor": {
-    "fullName": "Amy Caughlin",
+    "fullName": "Ashley Veldkamp",
     "title": "REALTOR®",
-    "phone": "15874391618",
-    "email": "arslan@salesgenius.co",
-    "bio": "A former risk manager turned Realtor, proptech co-founder, podcast host, and passionate community advocate. I help busy professionals and families find homes that truly fit their lives, while working behind the scenes to make real estate better for everyone involved. With a background in risk management, I bring a strategic lens to every transaction, ensuring my clients make informed, confident decisions. I’m also the co-founder of Jazzberry, a platform designed by realtors, for realtors. A proud Maritimer, I lead with authenticity, hospitality, and heart. Whether I’m running along the Bow River, adventuring in the mountains with my family, or hosting FutureRE — The Future of Real Estate, I’m always driven by curiosity, connection, and impact.",
-    "photoUrl": "https://static.showit.co/800/TUEDlhwVYAO5v1iU87fE1w/264146/headshot.jpg",
+    "phone": "(519) 761-0907",
+    "email": "ashley@theriserealtygroup.ca",
+    "bio": "Rise Realty Group was established with one core principle in mind: to provide the best real estate experience possible. This philosophy inspired our tagline, ‘raising expectations.’ We bring 20+ years of experience and a deep commitment to our clients and community. Real estate is not just about transactions; it’s about relationships and trust.",
+    "photoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/22c01a4b-310d-4097-a0f7-5e664f5b7ed5/028A4024.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666ADHU5GL%2F20250613%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250613T182126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDIaCXVzLXdlc3QtMiJHMEUCIQCjj60mkmwZqgjXzNFi%2F%2BiFB0HSen%2BGIa%2FeffIWWRBxWAIgI3D87D8g4fS8pyoZmPw1wI8OPxEIdg31KBIJfvORWq8q%2FwMIGxAAGgw2Mzc0MjMxODM4MDUiDO3gDCySj90Xj00ZkyrcAwkNP5ldorZ2T1ryKOyDQm7GPJ6GojsBptJdTUBmHsb%2FlNMcdyFgVyIsTPJF9a30CD5KLuc%2Furz7gvtRY%2BeCMWaE%2FSUCfn4EijgoC7D%2Bfw4FYOasCltrMpY5rNAu20p0jWosW1Zo33bHcRAzkFRjEUUtEU7RPcjHenGoMQFhAxXaH%2F%2FV9jTKSD5CH1Ro%2BBnF6G3ks3a4BFgSXtiPVr%2FVZUo8RqhB34Wy0gPg48%2BTXgI43ED5F48GvR4aMXbB1g5CG5iA4Ai%2B0RQ4YyHVS%2BDmxCyObFGNrByUDYtgRfIEtedIvApEuCtKTbSF%2BiVenlYfaA%2F6WFL6GhePORfXPGBu%2BwfJ3ycidIc4uMM26L4PmzHPfTj8rqgzA9H6BNgIjqxdwku8IyjGJ2Ja1h64UQy%2FEMw%2FacyYCWKK4k28V4h7uPZgfYZ2J3jlaGasVidFPgrxtT8afMqxv4l4VVBDoCa%2BdJ%2FQC78eXoxaiMTKIJAvST2XxDQUwVeFBV%2By1uCIMHxmWLAYB0TayYTrrAiRvFdOyUlST0udyEfdeLy8L15bXMjuA0SdTzQJ4fHhD%2BjlsnXfZwpSLgZiJt3sVeeYt4pR998AOVQFK3A3mPCweUUdqAKWyrXkF3KBzt0BqXusMM7SscIGOqUB91KCL6NbCkFNBK3AZYQQu5T5FgstH1h9RmoL3zasAslZS7fd0LJeWKawILNfM8Ob2Q2lTCXUpsnU1RZxxEHabI2IGQVKCd38XAFtRTUGcglOKSNSt%2F2DiuQbngwPWwPVNP5%2B7YfzgyQf8pY4rNnu90uIBhZWq6o6FG4ZH3kCnxq6jliyJTugRzRgm80OMrRadJSXcMip87mXU0yNw8Lyitkgbt8g&X-Amz-Signature=9b2081afb3b5e0d519f47361bb8054a14849754f9cda925fbc524d4d2d587574&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
     "social": {
-      "facebook": "https://www.facebook.com/caughlinrealestate/",
-      "instagram": "https://www.instagram.com/caughlin.realestate/",
-      "website": "https://caughlinrealestate.ca/"
+      "facebook": "https://www.facebook.com/theriserealtygroup/",
+      "instagram": "ashleyveldkamp",
+      "website": "https://theriserealtygroup.ca/"
     }
   },
   "brokerage": {
-    "name": "Greater Property Group",
-    "logoUrl": "https://static.showit.co/400/I76PcfBRdfuEObejOPwzPQ/264146/gpg-no-tagline-logo-white.png",
-    "address": "5940 Macleod Trl SW #500, Calgary, AB T2H 2G4"
+    "name": "Real Broker LTD",
+    "logoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/9e0cb426-7be8-42ce-9e46-be8012159b0b/RRG_Grey_CMYK.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666ADHU5GL%2F20250613%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250613T182126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDIaCXVzLXdlc3QtMiJHMEUCIQCjj60mkmwZqgjXzNFi%2F%2BiFB0HSen%2BGIa%2FeffIWWRBxWAIgI3D87D8g4fS8pyoZmPw1wI8OPxEIdg31KBIJfvORWq8q%2FwMIGxAAGgw2Mzc0MjMxODM4MDUiDO3gDCySj90Xj00ZkyrcAwkNP5ldorZ2T1ryKOyDQm7GPJ6GojsBptJdTUBmHsb%2FlNMcdyFgVyIsTPJF9a30CD5KLuc%2Furz7gvtRY%2BeCMWaE%2FSUCfn4EijgoC7D%2Bfw4FYOasCltrMpY5rNAu20p0jWosW1Zo33bHcRAzkFRjEUUtEU7RPcjHenGoMQFhAxXaH%2F%2FV9jTKSD5CH1Ro%2BBnF6G3ks3a4BFgSXtiPVr%2FVZUo8RqhB34Wy0gPg48%2BTXgI43ED5F48GvR4aMXbB1g5CG5iA4Ai%2B0RQ4YyHVS%2BDmxCyObFGNrByUDYtgRfIEtedIvApEuCtKTbSF%2BiVenlYfaA%2F6WFL6GhePORfXPGBu%2BwfJ3ycidIc4uMM26L4PmzHPfTj8rqgzA9H6BNgIjqxdwku8IyjGJ2Ja1h64UQy%2FEMw%2FacyYCWKK4k28V4h7uPZgfYZ2J3jlaGasVidFPgrxtT8afMqxv4l4VVBDoCa%2BdJ%2FQC78eXoxaiMTKIJAvST2XxDQUwVeFBV%2By1uCIMHxmWLAYB0TayYTrrAiRvFdOyUlST0udyEfdeLy8L15bXMjuA0SdTzQJ4fHhD%2BjlsnXfZwpSLgZiJt3sVeeYt4pR998AOVQFK3A3mPCweUUdqAKWyrXkF3KBzt0BqXusMM7SscIGOqUB91KCL6NbCkFNBK3AZYQQu5T5FgstH1h9RmoL3zasAslZS7fd0LJeWKawILNfM8Ob2Q2lTCXUpsnU1RZxxEHabI2IGQVKCd38XAFtRTUGcglOKSNSt%2F2DiuQbngwPWwPVNP5%2B7YfzgyQf8pY4rNnu90uIBhZWq6o6FG4ZH3kCnxq6jliyJTugRzRgm80OMrRadJSXcMip87mXU0yNw8Lyitkgbt8g&X-Amz-Signature=862b0d8da3ff8efbb53cd1507d998dca559083afc5f89dd04674251418922904&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "address": "218 Brant Avenue, Brantford ON N3T 3H9"
   },
   "openHouse": {
-    "eventDate": "2025-05-17",
+    "eventDate": "2025-06-21",
+    "additionalDates": ["2025-06-22"],
     "bundleItems": [
-      {
-        "icon": "fas fa-ruler-combined",
-        "text": "Architectural Floor Plan"
-      },
-      {
-        "icon": "fas fa-star",
-        "text": "Neighbourhood Guide"
-      },
-      {
-        "icon": "fas fa-check-circle",
-        "text": "Market Stats"
-      },
-      {
-        "icon": "fas fa-car",
-        "text": "School District Information"
-      },
-      {
-        "icon": "fas fa-key",
-        "text": "Financing Resources"
-      },
-      {
-        "icon": "fas fa-home",
-        "text": "Utility Cost Estimates"
-      },
-      {
-        "icon": "fas fa-map-location-dot",
-        "text": "Property Feature List"
-      },
-      {
-        "icon": "fas fa-image",
-        "text": "Home Inspection Tips"
-      }
+      { "icon": "fas fa-link", "text": "Property Listing URL" },
+      { "icon": "fas fa-image", "text": "Photos" },
+      { "icon": "fas fa-video", "text": "Virtual Tour" },
+      { "icon": "fas fa-list", "text": "Recent Neighborhood Sales" },
+      { "icon": "fas fa-chart-line", "text": "On-Market Comparables" },
+      { "icon": "fas fa-ruler-combined", "text": "Floor Plan" }
     ]
   },
   "meta": {
-    "pageTitlePrefix": "🏡 Amy Caughlin Open House",
+    "pageTitlePrefix": "🏡 Ashley Veldkamp Open House - Burford, ON",
     "navBrandLogoText": "OPEN HOUSE",
-    "privacyPolicyLink": "https://caughlinrealestate.ca/"
+    "privacyPolicyLink": "https://theriserealtygroup.ca/"
   },
   "settings": {
     "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
     "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
     "confettiColors": [
-      "#6187a7",
-      "#f0e9d6",
+      "#315065",
+      "#b4d1e0",
       "#ffffff",
-      "#83a363",
-      "#d9ac68"
+      "#eaba55",
+      "#f1c6c5"
     ]
   },
   "modalQuestions": [
@@ -116,10 +107,9 @@ const config = {
     }
   ],
   "deploymentInfo": {
-    "repoName": "Open-House-957",
-    "repoUrl": "https://github.com/arslvn93/Open-House-957",
-    "tag": "Open House 142 Valley Glen Heights NW",
-    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/zpjvSoJ3TMkdq8pcj7VJ/webhook-trigger/GIJI1X6L1zS4PxcScJqY",
-    "netlifyId": "dc35cadf-51e9-4ca8-843c-a084dd57add1"
+    "repoName": "Open-House-725",
+    "repoUrl": "https://github.com/arslvn93/Open-House-725",
+    "tag": "Open House 5 Maple Ave N Brant (Burford)",
+    "siteId": "1001638516"
   }
-};
+}
