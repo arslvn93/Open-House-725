@@ -1,4 +1,4 @@
-{
+const config = {
   "property": {
     "streetAddress": "5 MAPLE AVE N",
     "city": "Brant (Burford)",
@@ -110,6 +110,6 @@
     "repoName": "Open-House-725",
     "repoUrl": "https://github.com/arslvn93/Open-House-725",
     "tag": "Open House 5 Maple Ave N Brant (Burford)",
-    "siteId": "1001638516"
+    "siteId": "20cd6e0c-b820-4568-a550-2cdcce5fbb7e"
   }
 }
